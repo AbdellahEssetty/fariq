@@ -30,7 +30,14 @@ const showCard = ({backgroundImage, author, date, tags, title, description}, alt
 `);
 
 async function readCard() {
-    const response = await fetch('../js/search.json');
+    const response = await fetch('../js/search.json', 
+    {
+        headers : { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+         }
+  
+      });
     const data = await response.json();
     return data;
 };

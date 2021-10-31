@@ -30,14 +30,8 @@ const showCard = ({backgroundImage, author, date, tags, title, description}, alt
 `);
 
 async function readCard() {
-    const response = await fetch('../js/search.json', 
-    {
-        headers : { 
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-         }
-  
-      });
+    
+    const response = await fetch('https://jsonkeeper.com/b/2MAD');
     const data = await response.json();
     return data;
 };

@@ -1546,3 +1546,9 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+
+.search-results{
+	text-align: center;
+	padding: 10px;
+}

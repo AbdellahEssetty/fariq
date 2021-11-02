@@ -1,6 +1,8 @@
 const searchSection = document.querySelector('#search-section');
 const form = document.querySelector('form');
 const searchTerm = document.querySelector('.searchTerm');
+const searchResultsSection = document.querySelector('.search-results')
+
 
 // A helper function to display a single card.
 const showCard = ({backgroundImage, author, date, tags, title, description}, alt=false) => (`
@@ -30,10 +32,7 @@ const showCard = ({backgroundImage, author, date, tags, title, description}, alt
 `);
 
 async function readCard() {
-    
-    const response = await fetch('https://jsonkeeper.com/b/2MAD');
-    const data = await response.json();
-    return data;
+    return searchData;
 };
 
 
@@ -42,6 +41,7 @@ form.addEventListener('submit', event => {
     event.stopPropagation();
     const data = new FormData(form);
     const searchedItem = searchTerm.value;
+    searchResultsSection.innerHTML = `<h3>Results of ${searchedItem? searchedItem : 'all'}</h3>`
 
     for(let [key, item] of data){
         filter = item;
@@ -65,6 +65,7 @@ form.addEventListener('submit', event => {
     });
     
     console.log(filter, searchedItem);
+    event.preventDefault();
     event.stopPropagation();
 }, false);
 

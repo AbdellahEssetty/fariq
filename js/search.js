@@ -37,10 +37,9 @@ async function readCard() {
 
 
 form.addEventListener('submit', event => {
-    event.preventDefault();
-    event.stopPropagation();
     const data = new FormData(form);
     const searchedItem = searchTerm.value;
+    // searchResultsSection.innerHTML = '';
     searchResultsSection.innerHTML = `<h3>Results of ${searchedItem? searchedItem : 'all'}</h3>`
 
     for(let [key, item] of data){
@@ -53,21 +52,22 @@ form.addEventListener('submit', event => {
         cards = searchedItem ? cards.filter(card => {
             const tags = card.tags.map(tag => tag.toLowerCase());
             return tags.includes(searchedItem.toLowerCase())
-        }) : cards    ;
+        }) : cards;
         console.log(cards);
         let alt = false;
         cards.map(card => {
             const tempCard = showCard(card, alt);
             alt = !alt;
             console.log(alt);
-            searchSection.innerHTML += tempCard;
+            searchResultsSection.innerHTML += tempCard;
         });
     });
     
     console.log(filter, searchedItem);
     event.preventDefault();
     event.stopPropagation();
-}, false);
+    form.reset();
+}, true);
 
 
 

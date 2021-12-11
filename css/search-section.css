@@ -3,7 +3,7 @@
 
 .search {
   width: 100%;
-  min-width: 400px;
+  /* min-width: 400px; */
   position: relative;
   display: flex;
 }
@@ -25,7 +25,7 @@
 }
 
 .searchButton {
-  width: 90px;
+  width: 40px;
   height: 36px;
   border: 1px solid #0099ff;
   background: #0099ff;
@@ -34,6 +34,15 @@
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+}
+.addButton{
+  width: 56px;
+  height: 36px;
+  /* margin-left: 20px; */
+  font-size: 20px;
+  background: none;
+  color: #0099ff;
+  border: none;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -49,7 +58,7 @@
 
 .filter-search{
   width: 50vw;
-  min-width: 400px;
+  min-width: 300px;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -249,4 +258,63 @@
   .blog-card.alt .details {
     padding-left: 25px;
  }
+}
+
+
+/* the add button form styling */
+
+.addedPopup {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.addedFormContainer {
+  display: none;
+  position: fixed;
+  left: 65%;
+  top: 25%;
+  transform: translate(-50%, 5%);
+  border: 1px solid #999999;
+  border-radius: 10px;
+  z-index: 9;
+}
+.formContainer {
+  max-width: 300px;
+  padding: 20px;
+  background-color: #fff;
+}
+.formContainer input[type=text]{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #eee;
+}
+.formContainer input[type=text]:focus,
+.formContainer input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.formContainer .btn {
+  padding: 10px 10px;
+  border: none;
+  background-color: #0099ff;
+  color: #fff;
+  cursor: pointer;
+  width: 40%;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.formContainer .cancel {
+  background-color: #cc0000;
+}
+.formContainer .btn:hover,
+.openButton:hover {
+  opacity: 1;
+}
+
+.addButtons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }

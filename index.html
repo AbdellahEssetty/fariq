@@ -29,6 +29,7 @@
     <link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="css/search-section.css">
+    <link rel="stylesheet" href="css/pricing.css">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/Fariq.png">
@@ -142,6 +143,51 @@
     </header> <!-- end of header -->
     <!-- end of header -->
 
+    <!-- Membership -->
+
+    <div class="background">
+        <div class="membership-container">
+          <div class="panel pricing-table">
+            
+            <div class="pricing-plan">
+              <img src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png" alt="" class="pricing-img">
+              <h2 class="pricing-header">Personal</h2>
+              <ul class="pricing-features">
+                <li class="pricing-features-item">Search and publish announcements.</li>
+                <li class="pricing-features-item">Join existing teams and courses.</li>
+              </ul>
+              <span class="pricing-price">Free</span>
+              <a href="#/" class="pricing-button">Sign up</a>
+            </div>
+            
+            <div class="pricing-plan">
+              <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" class="pricing-img">
+              <h2 class="pricing-header">Professional</h2>
+              <ul class="pricing-features">
+                <li class="pricing-features-item">All the benefits of personal plan.</li>
+                <li class="pricing-features-item">Free courses and exclusive content.</li>
+                <li class="pricing-features-item">Enormous discounts on countless hardware products.</li>
+              </ul>
+              <span class="pricing-price">$50/year</span>
+              <a href="#/" class="pricing-button is-featured">Free trial</a>
+            </div>
+            
+            <div class="pricing-plan">
+              <img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" class="pricing-img">
+              <h2 class="pricing-header">Enterprise</h2>
+              <ul class="pricing-features">
+                <li class="pricing-features-item">Responsive workspace dedicated to your team.</li>
+                <li class="pricing-features-item">Smart task manager powered by AI.</li>
+                <li class="pricing-features-item">Unlimited access to all our features.</li>
+              </ul>
+              <span class="pricing-price">$400</span>
+              <a href="#/" class="pricing-button">Free trial</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
     <!-- Search  -->
     <div id="search-section">
 
@@ -161,8 +207,29 @@
                   <button type="submit" class="searchButton">
                     <i class="fa fa-search"></i>
                  </button>
+                 <button type="button" class="addButton">
+                    <i class="fas fa-plus-circle"></i>
+                 </button>
                </div>
             </form>
+            <div class="addedPopup">
+                <div class="addedFormContainer" id="addedFormContainer">
+                  <form class="formContainer addedForm">
+                    <h2>Add an Announcement</h2>
+                    <input type="text" id="title" placeholder="Announcement title" name="title" required>
+                    <input type="text" id="subtitle" placeholder="Announcement description" name="subtitle" required>
+                    <input type="radio" id="team" name="filter" value="team" checked>
+                    <label for="team">Team</label>
+                    <input type="radio" id="hardware" name="filter" value="hardware">
+                    <label for="hardware">Hardware exchange</label>
+                    <div class="addButtons">
+                        <button type="submit" class="btn">Add</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </div>
+                        
+                  </form>
+                </div>
+              </div>
             <div class="search-results">
 
             </div>

@@ -1,4 +1,4 @@
-const searchData = {
+let searchData = {
     team: [
       {
         backgroundImage: "https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg",

@@ -11,7 +11,8 @@ let searchData = {
           "Code"
         ],
         title: "Learning to Code",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      "
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      ",
+        price: "15$"      
       },
       {
         backgroundImage: "https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg",
@@ -23,7 +24,8 @@ let searchData = {
           "Code"
         ],
         title: "Mastering the Language",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      "
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      ",
+        price: "15$"
       },
       {
         backgroundImage: "https://garuda.io/about-us/",
@@ -34,7 +36,8 @@ let searchData = {
           "catia"
         ],
         title: "robotic arm",
-        description: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      "
+        description: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      ",
+        price: "15$"
       },
       {
         backgroundImage: "https://images.unsplash.com/photo-1635662669485-ddd5ad81c449?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
@@ -46,8 +49,9 @@ let searchData = {
           "management"
         ],
         title: "Step UP",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
-      },
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.",
+        price: "15$"
+        },
       {
         backgroundImage: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.r3XIrOjGloSaelYcwe6hfwHaE5%26pid%3DApi&f=1",
         author: "nour khabazi",
@@ -57,7 +61,8 @@ let searchData = {
           "catia"
         ],
         title: "projet",
-        Drone: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+        Drone: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.",
+        price: "15$"
       },
       {
         backgroundImage: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff0%2Ff0%2F2b%2Ff0f02b34d22ad852d266647d816a3be9.png&f=1&nofb=1",
@@ -68,7 +73,8 @@ let searchData = {
           "catia"
         ],
         title: "robot",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.",
+        price: "15$"
       },
       {
         backgroundImage: " https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.electronics-lab.com%2Fwp-content%2Fuploads%2F2019%2F08%2Fmcb-3.jpeg&f=1&nofb=1",
@@ -79,7 +85,8 @@ let searchData = {
           "catia"
         ],
         title: "Crochet d'un bateau",
-        description: "description de projet (mashi darorya) "
+        description: "description de projet (mashi darorya) ",
+        price: "15$"
       },
       {
         backgroundImage: "https://hackaday.com/wp-content/uploads/2021/07/microusb_feat.jpg?w=800",
@@ -90,7 +97,8 @@ let searchData = {
           "project"
         ],
         title: "arduino project",
-        description: ""
+        description: "",
+        price: "15$"
       }
     ],
     course: [
@@ -103,7 +111,8 @@ let searchData = {
           "solidwork"
         ],
         title: "cenception",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      "
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      ",
+        price: "15$"
       },
       {
         backgroundImage: "https://images.app.goo.gl/JjrHPmbqRXB9JRebA ",
@@ -115,7 +124,8 @@ let searchData = {
           "catia"
         ],
         title: "cenception",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      "
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      ",
+        price: "15$"
       },
       {
         backgroundImage: "https://ecms.adelaide.edu.au/sites/default/files/styles/ua_landscape/public/medical-technologies-900px_0.jpg?itok=TAxOBts_",
@@ -131,7 +141,8 @@ let searchData = {
           "conception"
         ],
         title: "cours complet",
-        description: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.  "
+        description: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.  ",
+        price: "15$"
       },
       {
         backgroundImage: "lien de  foto",
@@ -142,7 +153,8 @@ let searchData = {
           "catia"
         ],
         title: "formation de catia",
-        description: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+        description: "        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.",
+        price: "15$"
       }
     ],
     hardware: [
@@ -155,7 +167,8 @@ let searchData = {
           "Solidworks"
         ],
         title: "Moteur DC",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      "
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.      ",
+        price: "15$"
       },
       {
         backgroundImage: "https://heise.cloudimg.io/width/2574/q75.png-lossy-75.webp-lossy-75.foil1/_www-heise-de_/imgs/18/2/9/4/1/2/6/8/Aufmacher2-f4e773613e927073.jpeg",
@@ -171,7 +184,8 @@ let searchData = {
           "course"
         ],
         title: "Exchange material",
-        description: ""
+        description: "",
+        price: "15$"
       },
       {
         backgroundImage: "https://www.raspberrypi-france.fr/wp-content/uploads/2016/03/kit_inventeur.png",
@@ -183,7 +197,8 @@ let searchData = {
           "material"
         ],
         title: "Exchange material",
-        description: ""
+        description: "",
+        price: "15$"
       }
     ]
   };

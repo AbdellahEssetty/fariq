@@ -3,11 +3,19 @@ const form = document.querySelector('form');
 const addedForm = document.querySelector('.addedForm');
 const addButton = document.querySelector('.addButton');
 const searchTerm = document.querySelector('.searchTerm');
-const searchResultsSection = document.querySelector('.search-results')
+const searchResultsSection = document.querySelector('.search-results');
 
+const paymentPopup = document.querySelector('.payment-popup-container');
+const paymentButton = document.querySelector('.order-button');
+
+const showPopup = (price) => {
+
+  paymentPopup.classList.remove('popup-hidden');
+  searchResultsSection.innerHTML = '';
+};
 
 // A helper function to display a single card.
-const showCard = ({backgroundImage, author, date, tags, title, description}, alt=false) => (`
+const showCard = ({backgroundImage, author, date, tags, title, description, price}, alt=false) => (`
 <div class="blog-card ${alt ? 'alt' : ''}">
             <div class="meta">
               <div class="photo" style="background-image: url(${backgroundImage})"></div>
@@ -25,11 +33,17 @@ const showCard = ({backgroundImage, author, date, tags, title, description}, alt
               <h1>${title}</h1>
               <h2>Opening a door to the future</h2>
               <p> ${ description ? description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."}</p>
-              <p class="read-more">
-                <a href="#">Read More</a>
-              </p>
+              <div class="description-details">
+                <p class="read-more">
+                  <a href="#">Read More</a>
+                </p>
+                <div class="order">
+                  <h1>${price}</h1>
+                  <div class="order-button" onclick="showPopup()">Order Now</div>
+                </div>
+              </div>
             </div>
-        </div>
+</div>
 
 `);
 
